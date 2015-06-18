@@ -12,7 +12,7 @@ dokcer build -t pichuang/ryu .
 docker run -ti pichuang/ryu /bin/bash
 ```
 
-## Run images (user docker-compose)
+## Run images (usr docker-compose)
 ```
 docker-compose up -d
 ```
