@@ -2,5 +2,6 @@ ryu:
     name: ryu
     ports:
         - 6633:6633
-#        - 8080:8080
+        - 8080:8080
+        - 8000:8000
     image: pichuang/ryu-docker
