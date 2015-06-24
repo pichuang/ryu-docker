@@ -18,6 +18,8 @@ RUN wget --no-check-certificate https://github.com/osrg/ryu/archive/master.zip
 RUN unzip master.zip
 RUN cd ryu-master && python setup.py install
 
+EXPOSE 6633 8080
+
 ADD ./run.sh /root/run.sh
 RUN chmod +x /root/run.sh
 
